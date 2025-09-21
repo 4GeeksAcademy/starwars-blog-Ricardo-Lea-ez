@@ -1,0 +1,42 @@
+body {
+  background-color: #000;
+  color: #ffe81f;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.starwars-bg {
+  background-color: #000;
+  color: #ffe81f;
+}
+
+.card {
+  background-color: #1a1a1a;
+  color: #fff;
+  border: 1px solid #ffe81f;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.btn-warning {
+  background-color: #ffe81f;
+  color: #000;
+  border: none;
+}
+
+.btn-warning:hover {
+  background-color: #f1d10f;
+}
+
+.favorite-btn {
+  cursor: pointer;
+  z-index: 10;
+}
+
+.list-group-item {
+  background-color: transparent !important;
+  border-color: #444;
+}
